@@ -1,0 +1,30 @@
+
+* {
+    box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+            padding: 0;
+                overflow: hidden;
+                    background: #17251c;
+                        font-family: Arial, sans-serif;
+                        }
+
+                        #world {
+                            width: 100vw;
+                                height: 100vh;
+                                    position: relative;
+                                        overflow: hidden;
+                                        }
+
+                                        #loading {
+                                            position: absolute;
+                                                top: 50%;
+                                                    left: 50%;
+                                                        transform: translate(-50%, -50%);
+                                                            color: #d8e8ce;
+                                                                font-size: 18px;
+                                                                    text-align: center;
+                                                                    }
+                                                                    
